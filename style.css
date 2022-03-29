@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-size: 15px;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    background-color: rgba( 000, 000, 000, 0.9);
+    padding: 10px;
+    padding-left: 0;
+    padding-top: O;
+}
+.title{
+    display: inline;
+    @font-face {
+        font-family: FingerPaint;
+        src: local(font/FingerPaint-Regular);
+        url(font/FingerPaint-Regular.ttf)
+    }
+}
+h1{
+    margin: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    font
+}
+.title a{
+    text-decoration: none;
+    color: rgba( 000, 000, 000, 0.9);
+    font-weight: 600;
+    transition: 0.4s;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 5px;
+    background-color: rgba(163, 161, 161, 0.7);
+    border-start-end-radius: 40px;
+    border-end-end-radius: 40px;
+    box-shadow: 5px 0  5px 0.5px rgba( 000, 000, 000, 0.5);
+}
+.title a:hover{
+    color: white;
+    font-weight: 700;
+    background-color: rgba( 000, 000, 000, 0.8);
+}
+.navbar{
+    left: 0;
+    display: inline;
+    text-align: center;
+
+
+}
+.navbar a{
+    padding: 0 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(255 , 255, 255 , 0.6);
+    transition: 0.3s;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.navbar a:first-child{
+    padding-left: 10%;
+}
+.reseau{
+    float: right;
+    padding-top: 10px;
+}
+.reseau a{
+    padding: 0 5px;  
+}
+.reseau img{
+    opacity: 0.8;
+    transition: O.3s;
+}
+.reseau img:hover{
+    opacity: 1;
+}
+
+.reseau img:last-child{
+    padding-right: 20px;
+}
+.back{
+    width: 100%;
+    height: 427px;
+    border: 1px solid black;
+    background-image: url(images/ciel_etoile2.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+.main{
+    width: calc(100% - 375px);
+    height: 800px;
+    background-color: rgba( 000, 000, 000, 0.695);
+    border: 1px solid black;
+    padding: 10px;
+}
+.sidebar{
+    width: 375px;
+    background-color: rgba(172, 33, 33, 0.8);
+    flex-direction: column;
+}
+.body{
+    display: flex;
+}
+.img1{
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+}
+.img1 img{
+    width: 100%;
+}
+.art1 p{
+    max-width: 800px;
+}
+.art1{
+    color: white;
+}
